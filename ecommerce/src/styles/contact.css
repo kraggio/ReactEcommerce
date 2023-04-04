@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  background-color: rgb(108, 48, 48);
+  background: lightsteelblue;
+  overflow-x: hidden;
+}
+
+.container {
+  background-color: lightgoldenrodyellow;
+  width: 100vw;
+  /* change made here */
+  min-height: 100vh;
+  padding: 15px;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+}
+.contact-container {
+  padding-bottom: 330px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  width: auto;
+  height: 600px;
+  background-image: url(https://64.media.tumblr.com/238a2df841ce7318ab11e2a272f64738/403d03478a52e373-ce/s540x810/055d7c94a46ffbd6045baef97b69215d8ce850e9.gifv);
+  background-size: cover;
+  color: black;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: left;
+  padding: 250px;
+  position: relative;
+}
+
+.box p {
+  text-shadow: 2px 2px lightgoldenrodyellow;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+label {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] :hover {
+  background-color: #45a049;
+}
+
+audio {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .box {
+    padding: 100px;
+  }
+}

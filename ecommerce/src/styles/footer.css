@@ -1,0 +1,16 @@
+footer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: bottom;
+  bottom: 0;
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+  height: 60px;
+}
+
+.media {
+  height: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
