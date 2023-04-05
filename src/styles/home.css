@@ -25,7 +25,9 @@ body {
 .slideimg {
   width: 1560px;
   height: 640px;
-  object-fit: cover;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* object-fit: cover; */
 }
 
 h1 {
@@ -116,7 +118,5 @@ img {
 @media screen and (max-width: 800px) {
   .media {
     height: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
