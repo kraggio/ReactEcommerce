@@ -65,6 +65,40 @@ audio {
   display: none;
 }
 
+input {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  appearance: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+  border: 3px solid #ccc;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+input:checked {
+  border: 4px solid black;
+  background-color: white;
+}
+input:checked::before {
+  content: "";
+  border: 4px double white;
+  background-color: black;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.slidebutton {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+}
+
 .slider {
   position: relative;
 }
@@ -92,22 +126,12 @@ audio {
 .arrow-button {
   background-color: transparent;
   border: none;
-  color: #fff;
+  color: white;
   font-size: 2rem;
+  font-weight: bold;
+  outline: none;
   cursor: pointer;
-  transition: transform 0.1s ease-in-out;
-}
-
-.arrow-button:hover {
-  transform: scale(1.2);
-}
-
-.arrow-button.left-arrow {
-  transform: rotate(180deg);
-}
-
-.arrow-button.right-arrow {
-  transform: rotate(0deg);
+  transition: transform 0.2s ease-in-out;
 }
 
 img {

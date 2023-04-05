@@ -9,24 +9,27 @@ function Home() {
   ];
   const [currentImage, setCurrentImage] = useState(0);
 
-  function handlePrevClick() {
-    setCurrentImage((currentImage - 1 + images.length) % images.length);
+  function handleClick() {
+    setCurrentImage((currentImage + 1 + images.length) % images.length);
   }
 
-  function handleNextClick() {
-    setCurrentImage((currentImage + 1) % images.length);
-  }
+  // slideshow interval timer
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((currentImage + 1) % images.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [currentImage, images.length]);
 
   return (
     <div className="container">
       <h1>StudioPrints</h1>
       <img src={images[currentImage]} className="slideimg" alt="homemain" />
-      <button className="slider-btn slider-btn-left" onClick={handlePrevClick}>
-        &#8249;
-      </button>
-      <button className="slider-btn slider-btn-right" onClick={handleNextClick}>
-        &#8250;
-      </button>
+      <div className="slidebutton">
+        <input type="radio" name="select" id="" onClick={handleClick} />
+        <input type="radio" name="select" id="" onClick={handleClick} />
+        <input type="radio" name="select" id="" onClick={handleClick} />
+      </div>
       <h1>Welcome!</h1>
       <h2>
         We're so glad you've joined us today. Before you go, take a look at some
@@ -49,7 +52,7 @@ function Home() {
           />
           <h2>Interested?</h2>
           <h3>Take a look at the rest of our prints!</h3>
-          <br />
+
           <p>
             <a href="./Products">Shop Now</a>
           </p>
