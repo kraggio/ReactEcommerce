@@ -44,49 +44,56 @@ const ProductsArray = [
     name: "He Says he's Good Luck",
     description: "Not all black cats are bad",
     price: "15.00",
-    image: "Images/SudioGProduct6.jpeg",
+    image:
+      "https://i.pinimg.com/564x/33/3d/6d/333d6dde889e8086f216d073a2eb93ee.jpg",
   },
   {
     id: 7,
     name: "Better Days",
     description: "We hope Howl gets better soon",
     price: "30.00",
-    image: "Images/StudioGProduct7.jpeg",
+    image:
+      "Ihttps://lh3.googleusercontent.com/3_h2lE_RgWJRo3Q2QyKGR3YJ5xET9xZbC1c93XeyV_2Q3lzkmKXQVRSoWaSuDW9qgeDVE5eVcz2vLeMhFzUHGLxVX4MUShnmT7rSfUo",
   },
   {
     id: 8,
     name: "The Kodama",
     description: "Don't worry, they're just looking out for the forest",
     price: "15.00",
-    image: "Images/StudioGProduct8.jpeg",
+    image:
+      "https://i.pinimg.com/564x/e9/9f/b3/e99fb303f50e2d196efc065ccc911363.jpg",
   },
   {
     id: 9,
     name: "Howl's Trouble",
     description: "Sophie hopes for Howl's return amidst the chaos",
     price: "35.00",
-    image: "Images/StudioGProduct9.jpeg",
+    image:
+      "https://lh3.googleusercontent.com/UXhr37crzvds5Wr9ZJDNPlTE2v7oYzn8oAghUlntlyYoDEgzynYo6AJNikIBqjnLI_cEn0tb7PDd1AksaCFDoXGgULVZ4nJV4PBfJmQy4A",
   },
   {
     id: 10,
     name: "The Light Within",
     description: "Howl just needed to look within",
     price: "40.00",
-    image: "Images/StudioGProduct10.jpeg",
+    image:
+      "https://lh3.googleusercontent.com/kwp1Y6D9h29-xYtqoWvXz5tr6YHIlhdbrGitfcdZYt1kjoa1DkJ0vokPVp1PhzUNRAZeGgZO-obmF_r-2GfV26u6C7JUckUBaeUp8zZ7",
   },
   {
     id: 11,
     name: "Safe Travels, Friend",
     description: "Woah! I wonder who's in there",
     price: "45.00",
-    image: "Images/StudioGProduct11.jpeg",
+    image:
+      "https://lh3.googleusercontent.com/qySu7NdiAUUX2byf0dslHO0d3MGMDGsoUz8P5hxAe1l5jr6q2X_LWSF55QV8xEXoXnikbBFPwTgqCMXhUqQ19weV7JqyeilFPr4A6SE6",
   },
   {
     id: 12,
     name: "One With the Pack",
     description: "A true princess",
     price: "15.00",
-    image: "Images/StudioGProduct12.jpeg",
+    image:
+      "https://lh3.googleusercontent.com/v1M6rgxTNNFESEWP3DI5ERWgYuBTkZbMfV3IeErU9Fjot2tc4ShcJQbmxfTVANHdDWv2Bg_shDXYV78zkL2vZWiN5R_tRFhJ7tnuKkM5",
   },
 ];
 
