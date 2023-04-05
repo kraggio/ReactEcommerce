@@ -31,6 +31,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
+// import ProductsArray from "./pages/Products";
 import Contact from "./pages/Contact";
 import "./App.css";
 
