@@ -12,28 +12,32 @@ const ProductsArray = [
     name: "Howl & Sophie",
     description: "A love like no other",
     price: "50.00",
-    image: "Images/StudioGProduct2.jpeg",
+    image:
+      "https://i.pinimg.com/564x/7f/02/7e/7f027e24f5aec4442753ef85f63146d2.jpg",
   },
   {
     id: 3,
     name: "In the Water!",
     description: "Ponyo's on an adventure at sea",
     price: "35.00",
-    image: "Images/SudioGProduct3.jpeg",
+    image:
+      "https://i.pinimg.com/564x/07/e4/6d/07e46ddec820a5d853fb64bc4ba0b9f3.jpg",
   },
   {
     id: 4,
     name: "Peace in the Sky",
     description: "Haku taking Chihiro for a ride",
     price: "45.00",
-    image: "Images/StudioGProduct4.jpeg",
+    image:
+      "https://lh3.googleusercontent.com/xGrT1upiFqQEN3EbDEyoNr-k2VqzKFoD2-r9iYXFFGIuaNwqYYQlKbxQwTpQUQWz0Irqxpi3pA_qxh08t4bm4rRqVMNo4V8TRoIWiMmA",
   },
   {
     id: 5,
     name: "Soul Cake",
     description: "Well earned after a day at the bath house",
     price: "20.00",
-    image: "Images/StudioGProduct5.jpeg",
+    image:
+      "https://i.pinimg.com/564x/34/ff/55/34ff5558bf52e48a1485059e7d4aa116.jpg",
   },
   {
     id: 6,
