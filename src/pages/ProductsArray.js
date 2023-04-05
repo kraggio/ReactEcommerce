@@ -53,7 +53,7 @@ const ProductsArray = [
     description: "We hope Howl gets better soon",
     price: "30.00",
     image:
-      "Ihttps://lh3.googleusercontent.com/3_h2lE_RgWJRo3Q2QyKGR3YJ5xET9xZbC1c93XeyV_2Q3lzkmKXQVRSoWaSuDW9qgeDVE5eVcz2vLeMhFzUHGLxVX4MUShnmT7rSfUo",
+      "https://lh3.googleusercontent.com/3_h2lE_RgWJRo3Q2QyKGR3YJ5xET9xZbC1c93XeyV_2Q3lzkmKXQVRSoWaSuDW9qgeDVE5eVcz2vLeMhFzUHGLxVX4MUShnmT7rSfUo",
   },
   {
     id: 8,

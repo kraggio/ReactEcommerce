@@ -3,9 +3,9 @@ import "../styles/home.css";
 
 function Home() {
   const images = [
-    "Images/Hero1.jpeg",
-    "Images/Hero2.jpeg",
-    "Images/Hero3.jpeg",
+    "https://lh3.googleusercontent.com/KvHfCduhDa66hUMHGaHWnyx2tbRpBfd3h_EBHVmONJPUCyO9Ex7Svqpx_uajrbDKf6DviN6S0joiL4alyyyXXtdwa2kOVblg5Kx0Vh_K",
+    "https://lh3.googleusercontent.com/zKVqbR2M5th1-0kB61I18sFCMezxV-VbqvCba4nQ2Lu_iMBUj5z7oz5YkD6j3JWFxkkjXpOazwV2ov8Q0gL1gIjp_lQ-HehJ8bATf-I",
+    "https://lh3.googleusercontent.com/4iJd2PNnKYaRyA9WHjFVxGvzRqD-RW6gjLhgW4eEllS1fXrogzFaKR_XqvpTTsNu_Z98L_4tpNzCpaaAUb9gTQlgb_rKFvPYLz7mM0Bu",
   ];
   const [currentImage, setCurrentImage] = useState(0);
 
@@ -42,7 +42,10 @@ function Home() {
 
       <div className="grid-container">
         <div className="grid-item">
-          <img src="Images/hero2.jpeg" alt="Ghiblicontent" />
+          <img
+            src="https://lh3.googleusercontent.com/zKVqbR2M5th1-0kB61I18sFCMezxV-VbqvCba4nQ2Lu_iMBUj5z7oz5YkD6j3JWFxkkjXpOazwV2ov8Q0gL1gIjp_lQ-HehJ8bATf-I"
+            alt="Ghiblicontent"
+          />
           <h2>Interested?</h2>
           <h3>Take a look at the rest of our prints!</h3>
           <br />
@@ -54,7 +57,10 @@ function Home() {
 
       <div className="grid-container">
         <div className="grid-item">
-          <img src="Images/hero3.jpeg" alt="Ghiblicontent" />
+          <img
+            src="https://lh3.googleusercontent.com/4iJd2PNnKYaRyA9WHjFVxGvzRqD-RW6gjLhgW4eEllS1fXrogzFaKR_XqvpTTsNu_Z98L_4tpNzCpaaAUb9gTQlgb_rKFvPYLz7mM0Bu"
+            alt="Ghiblicontent"
+          />
           <h2>Custom Order</h2>
           <h3>Submit a custom print request!</h3>
           <p>
