@@ -8,7 +8,7 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
   background-color: rgb(108, 48, 48);
-  background: lightsteelblue;
+  background: lightgoldenrodyellow;
   overflow-x: hidden;
 }
 
@@ -57,7 +57,9 @@ p {
   flex: 1;
   margin: 10px;
 }
-
+.filter {
+  text-align: center;
+}
 audio {
   display: none;
 }

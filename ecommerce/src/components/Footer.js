@@ -12,7 +12,7 @@ function Footer() {
         />
       </a>
 
-      <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">
+      <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
         <img
           src="Images/instagramlogo5.png"
           alt="tiktok logo"
@@ -20,11 +20,11 @@ function Footer() {
         />
       </a>
 
-      <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
+      <a href="https://www.tiktok.com/en/" target="_blank" rel="noreferrer">
         <img src="Images/tiktok.png" alt="twitter logo" className="media" />
       </a>
 
-      <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+      <a href="https://twitter.com/" target="_blank" rel="noreferrer">
         <img
           src="Images/twitterlogo2.png"
           alt="instagram logo"

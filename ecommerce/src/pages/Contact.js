@@ -24,6 +24,14 @@ function Contact() {
 
   return (
     <div className="contact-container">
+      <div class="box">
+        <p>
+          Fill out the information below to get started with your custom order!
+          <br />
+          We will send you an email within 3-5 business days to set up an <br />
+          over the phone appointment to discuss any further details needed!
+        </p>
+      </div>
       <h1>Contact Us</h1>
       <p>Please use the form below to get in touch with us.</p>
       <form onSubmit={handleSubmit}>
