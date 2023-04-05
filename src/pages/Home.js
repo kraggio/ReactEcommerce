@@ -3,9 +3,9 @@ import "../styles/home.css";
 
 function Home() {
   const images = [
-    "https://lh3.googleusercontent.com/KvHfCduhDa66hUMHGaHWnyx2tbRpBfd3h_EBHVmONJPUCyO9Ex7Svqpx_uajrbDKf6DviN6S0joiL4alyyyXXtdwa2kOVblg5Kx0Vh_K",
-    "https://lh3.googleusercontent.com/zKVqbR2M5th1-0kB61I18sFCMezxV-VbqvCba4nQ2Lu_iMBUj5z7oz5YkD6j3JWFxkkjXpOazwV2ov8Q0gL1gIjp_lQ-HehJ8bATf-I",
-    "https://lh3.googleusercontent.com/4iJd2PNnKYaRyA9WHjFVxGvzRqD-RW6gjLhgW4eEllS1fXrogzFaKR_XqvpTTsNu_Z98L_4tpNzCpaaAUb9gTQlgb_rKFvPYLz7mM0Bu",
+    "https://www.pixelstalk.net/wp-content/uploads/2016/07/Pictures-HD-Studio-Ghibli.jpg",
+    "https://www.pixelstalk.net/wp-content/uploads/2016/07/Photos-Studio-Ghibli-Backgrounds.jpg",
+    "https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Studio-Ghibli-HD-Wallpapers-1.jpg",
   ];
   const [currentImage, setCurrentImage] = useState(0);
 
@@ -20,7 +20,7 @@ function Home() {
   return (
     <div className="container">
       <h1>StudioPrints</h1>
-      <img src={images[currentImage]} className="hero-image" alt="homemain" />
+      <img src={images[currentImage]} className="slideimg" alt="homemain" />
       <button className="slider-btn slider-btn-left" onClick={handlePrevClick}>
         &#8249;
       </button>
@@ -43,8 +43,9 @@ function Home() {
       <div className="grid-container">
         <div className="grid-item">
           <img
-            src="https://lh3.googleusercontent.com/zKVqbR2M5th1-0kB61I18sFCMezxV-VbqvCba4nQ2Lu_iMBUj5z7oz5YkD6j3JWFxkkjXpOazwV2ov8Q0gL1gIjp_lQ-HehJ8bATf-I"
+            src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Photos-Studio-Ghibli-Backgrounds.jpg"
             alt="Ghiblicontent"
+            className="slideimg"
           />
           <h2>Interested?</h2>
           <h3>Take a look at the rest of our prints!</h3>
@@ -58,8 +59,9 @@ function Home() {
       <div className="grid-container">
         <div className="grid-item">
           <img
-            src="https://lh3.googleusercontent.com/4iJd2PNnKYaRyA9WHjFVxGvzRqD-RW6gjLhgW4eEllS1fXrogzFaKR_XqvpTTsNu_Z98L_4tpNzCpaaAUb9gTQlgb_rKFvPYLz7mM0Bu"
+            src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Studio-Ghibli-HD-Wallpapers-1.jpg"
             alt="Ghiblicontent"
+            className="slideimg"
           />
           <h2>Custom Order</h2>
           <h3>Submit a custom print request!</h3>
