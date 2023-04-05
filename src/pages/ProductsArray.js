@@ -4,7 +4,8 @@ const ProductsArray = [
     name: "Susuwatari Trouble",
     description: "These little dust mites are always up to something",
     price: "25.00",
-    image: "Images/StudioGProduct1.jpeg",
+    image:
+      "https://i.pinimg.com/564x/6e/12/3b/6e123b34d3390f65afce7000b9ac5cc6.jpg",
   },
   {
     id: 2,
