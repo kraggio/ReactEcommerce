@@ -26,9 +26,27 @@ function Home() {
       <h1>StudioPrints</h1>
       <img src={images[currentImage]} className="slideimg" alt="homemain" />
       <div className="slidebutton">
-        <input type="radio" name="select" id="" onClick={handleClick} />
-        <input type="radio" name="select" id="" onClick={handleClick} />
-        <input type="radio" name="select" id="" onClick={handleClick} />
+        <input
+          value="JavaScript"
+          type="radio"
+          name="select"
+          id=""
+          onClick={handleClick}
+        />
+        <input
+          value="JavaScript"
+          type="radio"
+          name="select"
+          id=""
+          onClick={handleClick}
+        />
+        <input
+          value="JavaScript"
+          type="radio"
+          name="select"
+          id=""
+          onClick={handleClick}
+        />
       </div>
       <h1>Welcome!</h1>
       <h2>
