@@ -71,7 +71,9 @@ function Home() {
           <p>
             <a href="./Contact">Get in Touch</a>
           </p>
+          <br />
         </div>
+        <br />
       </div>
 
       <audio controls autoPlay loop>
