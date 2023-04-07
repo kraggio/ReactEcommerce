@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  background: url(https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80)
+    no-repeat center center fixed;
 }
 
 body {
@@ -45,6 +47,9 @@ h3 {
 p {
   text-align: center;
   font-size: 20px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .grid-container {

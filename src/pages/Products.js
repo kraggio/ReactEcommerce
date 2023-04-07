@@ -27,15 +27,15 @@
 //     setSort(event.target.value);
 //   };
 
-//   const sortedProducts = products.sort((a, b) => {
-//     if (sort === "name") {
-//       return a.name.localeCompare(b.name);
-//     } else if (sort === "price") {
-//       return a.price - b.price;
-//     } else {
-//       return 0;
-//     }
-//   });
+// const sortedProducts = products.sort((a, b) => {
+//   if (sort === "name") {
+//     return a.name.localeCompare(b.name);
+//   } else if (sort === "price") {
+//     return a.price - b.price;
+//   } else {
+//     return 0;
+//   }
+// });
 
 //   return (
 //     <div className="container">

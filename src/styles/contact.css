@@ -41,7 +41,9 @@ h1 {
   padding: 250px;
   position: relative;
 }
-
+p {
+  padding-bottom: 10px;
+}
 .box p {
   text-shadow: 2px 2px lightgoldenrodyellow;
 }
@@ -57,6 +59,7 @@ form {
 label {
   font-weight: bold;
   font-size: 1.2em;
+  color: black;
 }
 
 input[type="text"],
