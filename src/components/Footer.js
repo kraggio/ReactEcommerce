@@ -32,6 +32,8 @@ function Footer() {
         />
       </a>
 
+      <p>&copy; 2023 StudioPrints</p>
+
       {/* <a href="https://twitter.com/" target="_blank" rel="noreferrer">
         <img
           src="https://image.similarpng.com/very-thumbnail/2020/06/Black-icon-Twitter-logo-transparent-PNG.png"
