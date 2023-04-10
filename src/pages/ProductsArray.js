@@ -28,8 +28,7 @@ const ProductsArray = [
     name: "Peace in the Sky",
     description: "Haku taking Chihiro for a ride",
     price: "45.00",
-    image:
-      "https://lh3.googleusercontent.com/xGrT1upiFqQEN3EbDEyoNr-k2VqzKFoD2-r9iYXFFGIuaNwqYYQlKbxQwTpQUQWz0Irqxpi3pA_qxh08t4bm4rRqVMNo4V8TRoIWiMmA",
+    image: "https://s1.zerochan.net/Ogino.Chihiro.600.3478406.jpg",
   },
   {
     id: 5,
@@ -53,7 +52,7 @@ const ProductsArray = [
     description: "We hope Howl gets better soon",
     price: "30.00",
     image:
-      "https://lh3.googleusercontent.com/3_h2lE_RgWJRo3Q2QyKGR3YJ5xET9xZbC1c93XeyV_2Q3lzkmKXQVRSoWaSuDW9qgeDVE5eVcz2vLeMhFzUHGLxVX4MUShnmT7rSfUo",
+      "https://i.pinimg.com/564x/29/82/38/2982381fd5a3012844a4f84b460d1588.jpg",
   },
   {
     id: 8,
@@ -69,15 +68,14 @@ const ProductsArray = [
     description: "Sophie hopes for Howl's return amidst the chaos",
     price: "35.00",
     image:
-      "https://lh3.googleusercontent.com/UXhr37crzvds5Wr9ZJDNPlTE2v7oYzn8oAghUlntlyYoDEgzynYo6AJNikIBqjnLI_cEn0tb7PDd1AksaCFDoXGgULVZ4nJV4PBfJmQy4A",
+      "https://i.pinimg.com/564x/62/7b/e2/627be283fb669fc2262629b0f0487f7a.jpg",
   },
   {
     id: 10,
     name: "The Light Within",
     description: "Howl just needed to look within",
     price: "40.00",
-    image:
-      "https://lh3.googleusercontent.com/kwp1Y6D9h29-xYtqoWvXz5tr6YHIlhdbrGitfcdZYt1kjoa1DkJ0vokPVp1PhzUNRAZeGgZO-obmF_r-2GfV26u6C7JUckUBaeUp8zZ7",
+    image: "https://pbs.twimg.com/media/FJndr94VgAMBVR_?format=jpg&name=large",
   },
   {
     id: 11,
@@ -85,7 +83,7 @@ const ProductsArray = [
     description: "Woah! I wonder who's in there",
     price: "45.00",
     image:
-      "https://lh3.googleusercontent.com/qySu7NdiAUUX2byf0dslHO0d3MGMDGsoUz8P5hxAe1l5jr6q2X_LWSF55QV8xEXoXnikbBFPwTgqCMXhUqQ19weV7JqyeilFPr4A6SE6",
+      "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/71D0lWM90cL._AC_SX679_.jpg",
   },
   {
     id: 12,
@@ -93,7 +91,7 @@ const ProductsArray = [
     description: "A true princess",
     price: "15.00",
     image:
-      "https://lh3.googleusercontent.com/v1M6rgxTNNFESEWP3DI5ERWgYuBTkZbMfV3IeErU9Fjot2tc4ShcJQbmxfTVANHdDWv2Bg_shDXYV78zkL2vZWiN5R_tRFhJ7tnuKkM5",
+      "https://i.pinimg.com/564x/41/08/92/410892ec98d152110cc2ce5865300f99.jpg",
   },
 ];
 
